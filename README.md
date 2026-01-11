@@ -11,12 +11,14 @@ I used a very basic create table if not exists query because I didn’t want err
 After that I just looped through the API response and inserted the records one by one.
 Finally, I selected all the rows back from the database just to confirm that everything was inserted correctly.
 
+
 2) Data Processing and Visualization: Given a dataset containing information about students' test scores, fetch the data from an API, calculate the average score, and create a bar chart to visualize the data.
 
 Ans. I didn’t want to use random dummy APIs, so I uploaded the Kaggle dataset to my own GitHub and used the raw link as my external source.
 This way, the data still comes from an external URL but I have control over it.
 After loading the CSV using pandas, I noticed the dataset had three separate scores: math, reading, and writing. Instead of using only one subject, I calculated an average score for each student because that gives a better idea of their overall performance. Then I calculated the general average score of the whole dataset.
 For the visualization part, I used matplotlib and created a simple bar graph using the index values as the x-axis since the dataset doesn’t have any unique student ID. The requirement only asked for a basic chart, so I didn’t add anything fancy.
+
 
 3) CSV Data Import to a Database: Write a Python script that reads data from a CSV file containing user information (e.g., name, email) and inserts it into a SQLite database.
 

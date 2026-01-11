@@ -26,20 +26,3 @@ I also added a small check if len(row) == 2 because sometimes CSV files have emp
 Once all the rows were inserted, I ran a simple select query just to confirm the data was actually stored.
 
 
-## Problem Statement 2
-
-1) Where would you rate yourself on (LLM, Deep Learning, AI, ML). A, B, C [A = can code independently; B = can code under supervision; C = have little or no understanding]
-
-Ans. If I rate myself honestly:
-
-LLM – B
-I understand how to use LLM APIs and how prompting works, but I still need guidance when it comes to deeper concepts like fine-tuning or model internals.
-Deep Learning – B
-I can work with basic neural networks and train small DL models, mostly by following tutorials or examples. I can modify things, but I still prefer supervision when the architecture gets complex.
-AI (overall understanding) – B
-I have a good theoretical understanding of different AI areas, and I can implement simpler things on my own, but for bigger pipelines I might need some help.
-Machine Learning – B
-I am comfortable building and training classical ML models (logistic regression, decision trees, random forest) independently. I can clean data, try different models, and evaluate them on my own.
-
-Overall this is where I feel I stand right now, based on what I can practically do without over-stating anything.
-

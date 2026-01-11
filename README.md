@@ -28,3 +28,7 @@ I also added a small check if len(row) == 2 because sometimes CSV files have emp
 Once all the rows were inserted, I ran a simple select query just to confirm the data was actually stored.
 
 
+Link 1(Python) : https://github.com/Manisha1808/Movie-Recommendation-System/blob/main/app.py
+
+Link 2(SQL): https://github.com/Manisha1808/Pizza-sales-analysis/blob/main/Analysis.sql
+
